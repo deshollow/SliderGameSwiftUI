@@ -11,6 +11,7 @@
 		1A28CB942B38370000333FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A28CB932B38370000333FBE /* ContentView.swift */; };
 		1A28CB962B38370400333FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A28CB952B38370400333FBE /* Assets.xcassets */; };
 		1A28CB992B38370400333FBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A28CB982B38370400333FBE /* Preview Assets.xcassets */; };
+		1A28CBA02B38458C00333FBE /* UISliderViewRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A28CB9F2B38458C00333FBE /* UISliderViewRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1A28CB932B38370000333FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A28CB952B38370400333FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A28CB982B38370400333FBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A28CB9F2B38458C00333FBE /* UISliderViewRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderViewRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1A28CB912B38370000333FBE /* SliderGameSwiftUIApp.swift */,
 				1A28CB932B38370000333FBE /* ContentView.swift */,
+				1A28CB9F2B38458C00333FBE /* UISliderViewRepresentation.swift */,
 				1A28CB952B38370400333FBE /* Assets.xcassets */,
 				1A28CB972B38370400333FBE /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				1A28CB942B38370000333FBE /* ContentView.swift in Sources */,
 				1A28CB922B38370000333FBE /* SliderGameSwiftUIApp.swift in Sources */,
+				1A28CBA02B38458C00333FBE /* UISliderViewRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
