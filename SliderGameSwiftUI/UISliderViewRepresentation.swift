@@ -11,6 +11,8 @@ struct UISliderViewRepresentation: UIViewRepresentable {
     
     @Binding var value: Int
     
+    let alpha: Int
+    
     func makeCoordinator() -> Coordinator {
         Coordinator(value: $value)
     }
@@ -32,6 +34,8 @@ struct UISliderViewRepresentation: UIViewRepresentable {
     
     func updateUIView(_ uiView: UISlider, context: Context) {
         uiView.value = Float(value)
+        uiView.thumbTintColor = .red.withAlphaComponent(CGFloat(alpha) / 100)
+        
     }
     
     //typealias UIViewType = UISlider
@@ -52,5 +56,5 @@ extension UISliderViewRepresentation {
 }
 
 #Preview {
-    UISliderViewRepresentation(value: .constant(50))
+    UISliderViewRepresentation(value: .constant(50), alpha: 2)
 }

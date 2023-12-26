@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var targetValue = Int.random(in: 1..<100)
-    @State var showAlert = false
-    @State var currentValue = 0
+    @State private var targetValue = Int.random(in: 1..<100)
+    @State private var showAlert = false
+    @State private var currentValue = 0
     
     @State private var buttonCounter = 0
     
@@ -21,7 +21,7 @@ struct ContentView: View {
             Text("Подвинь слайдер, как можно ближе к: \(targetValue)")
             HStack{
                 Text("0")
-                UISliderViewRepresentation(value: $currentValue)
+                UISliderViewRepresentation(value: $currentValue, alpha: computeScore())
                 
                 Text("100")
             }.padding()
